@@ -1,4 +1,4 @@
-# AC Pitwall Telemetry
+![assetto-corsa-pitwall](https://socialify.git.ci/cgarciafernando/assetto-corsa-pitwall/image?font=Raleway&logo=https%3A%2F%2Fcdn.brandfetch.io%2FidUcut9V1S%2Ftheme%2Flight%2Flogo.svg%3Fc%3D1bxid64Mup7aczewSAYMX%26t%3D1722399729065&pattern=Floating+Cogs&theme=Dark)
 
 A real-time telemetry pipeline for Assetto Corsa. The system reads live car data directly from the simulator's shared memory, streams it through Kafka, processes it with Spark Structured Streaming, and visualises the results in a Grafana dashboard — all running in Docker Compose.
 
@@ -39,8 +39,8 @@ You need Docker, Docker Compose, and Assetto Corsa running on Windows (the share
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/cgarciafernando/ac-pitwall-telemetry
-cd ac-pitwall-telemetry
+git clone https://github.com/cgarciafernando/assetto-corsa-pitwall
+cd assetto-corsa-pitwall
 ```
 
 **2. Configure environment variables**
